@@ -23,7 +23,7 @@ local time 		= 0.1
 
 hook.Add("Think", "Call_Admin_Thingy", function()
 	if 
-	input.IsKeyDown(KEY_F1) and antispam == false -- hier zit de sneltoets
+	input.IsKeyDown(KEY_F1) and antispam == false
 	then
 		antispam = true
 		LocalPlayer():ConCommand("playermodel_selector")
