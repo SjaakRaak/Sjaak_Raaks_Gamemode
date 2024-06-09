@@ -1,0 +1,8 @@
+"sjaak_raaks_gamemode"
+{
+	"base"			"base"
+	"title"			"Sjaak Raak's Gamemode"
+	"maps"			""
+	"category"		"pvp"
+	"menusystem"	"1"
+}
