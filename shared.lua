@@ -12,10 +12,10 @@ end
 
 //  Team settings
 //  Sjaaks zombie, wapens en level settings
-//	Toggle third-person
-//  Dynamischer wapenmodel										// Credits relaxtakenotes 
+//  Toggle third-person
+//  Dynamischer wapenmodel							// Credits relaxtakenotes 
 //  Autostart voor Enhanced Playermodel Selector				// Credits Woflje
-//  Enhanced Playermodel Selector								// Credits LibertyForce
+//  Enhanced Playermodel Selector						// Credits LibertyForce
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -49,7 +49,6 @@ end
 -- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --
 
 // Sjaaks zombie, wapens en gameplay settings
-
 
 
 -- werkt
@@ -93,7 +92,7 @@ RunConsoleCommand( "sk_zombie_poison_dmg_spit", "24" )
 
 RunConsoleCommand( "sk_npc_dmg_smg1", "5" ) -- standaard 3
 
-
+// To-Do = aanvullen, alle wapens tikje sterker
 
 
 -- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --
@@ -164,7 +163,7 @@ else
 		umsg.End();
 	end
 
-	hook.Add( "ShowSpare1", "ToggleThirdPerson", ToggleThirdPerson ) -- hier zit de optie voor de sneltoets: ShowHelp = F1, ShowTeam = F2, ShowSpare1 = F3, ShowSpare2 = F4
+	hook.Add( "ShowSpare1", "ToggleThirdPerson", ToggleThirdPerson ) -- hier zit de sneltoets: standaard is ShowHelp = F1, ShowTeam = F2, ShowSpare1 = F3, ShowSpare2 = F4
 
 end
 
